@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* accent */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: #404149;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.open__sans {
+  font-family: "Open Sans", sans-serif;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  row-gap: 30px;
+}
+
+.col-2 {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding: 0 15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+/* accent */
+
+/* header */
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.header__nav img:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.header__nav img:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* header */
+
+/* main */
+main {
+  background-image: url("./images/Rectangle.png");
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main__wrap {
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 94.85px;
+  letter-spacing: 2%;
+}
+.main__wrap p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 35px;
+}
+/* main */
+
+/* age */
+#age {
+  margin-top: -150px;
+}
+.age__container {
+  background-color: #f7f7f7;
+  padding: 57px 130px;
+}
+.age__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.age__box p:nth-child(1) {
+  color: #f7654a;
+  font-size: 72px;
+  font-weight: 500;
+}
+.age__box p:nth-child(2) {
+  color: black;
+  font-size: 36px;
+}
+.age__box p:nth-child(3) {
+  color: #999999;
+  font-size: 18px;
+}
+/* age */
+
+/* project */
+#project {
+  padding: 100px 0;
+}
+.project__box {
+  box-shadow: 5px 5px 5px rgb(187, 187, 187);
+}
+.project__box img {
+  width: 100%;
+}
+.line {
+  width: 55px;
+  height: 6px;
+  background-color: #f7654a;
+  margin: 45px 0 25px;
+}
+.project__box h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* project */
+
+/* request */
+#request {
+  background-color: #f7654a;
+  padding: 30px 0;
+}
+.request__box1 {
+  color: white;
+}
+.request__box1 h3 {
+  font-size: 38px;
+  font-weight: 500;
+}
+.request__box1 p {
+  font-size: 20px;
+}
+
+.request__box2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.btn {
+  padding: 14px 30px 12px 14px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btn img {
+  width: 21px;
+  height: 18px;
+  margin-right: 15px;
+}
+.btn p {
+  font-size: 14px;
+}
+/* request */
+
+/* images */
+.images__row {
+  margin: 0;
+  row-gap: 0;
+}
+.images__col3 {
+  padding: 0;
+  margin-bottom: -5px;
+}
+.images__box img {
+  width: 100%;
+}
+/* images */
+
+/* answer */
+#answer {
+  padding: 150px 0;
+}
+.wrap {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.answer__info,
+.answer__info2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.answer__info img,
+.answer__info2 img {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}
+.answer__info2 {
+  margin-bottom: 10px;
+}
+/* answer */
+
+/* partners */
+#partners {
+  background-color: #404149;
+  padding: 100px 0;
+}
+#partners h2 {
+  color: white;
+  text-transform: uppercase;
+}
+.partners__box img {
+  width: 100%;
+}
+/* partners */
+
+/* revie */
+#revie {
+  padding: 150px 0;
+}
+#revie h2 {
+  text-transform: uppercase;
+}
+.revie__box2 {
+  background-color: rgb(238, 168, 168);
+  padding: 38px 30px;
+  margin-bottom: 30px;
+}
+.revie__box2 img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 15px;
+}
+.revie__box span {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  line-height: -1px;
+}
+.revie__box span:nth-child(3) {
+  color: rgb(247, 101, 74);
+  /* ????? */
+}
+/* revie */
+
+/* contacts */
+#contacts {
+  padding: 100px 403px 123px;
+}
+.contacts__box {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.contacts__box img {
+  width: 40px;
+  height: 40px;
+}
+/* contacts */
